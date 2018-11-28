@@ -1,5 +1,3 @@
-const emojiok = "472324477112418341";
-
 exports.run = (client, message) => {
     var VC = message.member.voiceChannel;
     if(!VC) {
@@ -11,5 +9,4 @@ exports.run = (client, message) => {
     };
     VC.join();
     message.channel.send("```Бот подключился к голосовому каналу.```");
-    message.react(emojiok);
 };
