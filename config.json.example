@@ -1,5 +1,6 @@
 { 
     "prefix" : "F.",
     "token" : "INERT_TOKEN",
-    "owner" : "YOUR_ID"
+    "owner" : "YOUR_ID",
+    "BOT_ID" : "BOT_ID"
   }
